@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Proxima Nova";
-    background-image: url("/img/bg_bggenerator_com.png");
+    background-image: url("/img/bg.png");
     color: white;
     width: 100%;
 }
