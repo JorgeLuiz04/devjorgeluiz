@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Proxima Nova";
-    background-image: url("./img/bg.png");
+    background-image: url("../img/bg.png");
     color: white;
     width: 100%;
 }
@@ -288,7 +288,7 @@ a {
     width: 90%;
     height: 65%;
     background-color: rgb(60, 60, 214);
-    background: url("/img/logo.png");
+    background: url("../img/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #52528C;
