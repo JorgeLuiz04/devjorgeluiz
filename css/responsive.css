@@ -170,7 +170,7 @@
     }
 }
 
-@media (min-width: 500px) and (max-width: 999px){
+@media (min-width: 500px) and (max-width: 699px){
     .menu{
         width: 80%;
         flex-direction: row;
@@ -185,9 +185,19 @@
     .navegation nav{
         justify-content: end;
     }
+    .view{
+        width: 80%;
+    }
+        .h1{
+            text-align: center;
+        }
+    .text{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
-@media (min-width: 100px) and (max-width: 399px){
+@media (min-width: 100px) and (max-width: 299px){
     .view{
         width: 90%;
     }
