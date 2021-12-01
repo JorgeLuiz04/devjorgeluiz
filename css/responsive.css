@@ -84,7 +84,7 @@
     }
 
     .infoview{
-        width: 100%;
+        width: 80%;
         flex-direction: column;
     }
 
@@ -93,10 +93,14 @@
     }
 
     .view img{
-        width: 100%;
+        padding: 5px;
+        width: 90%;
+        height: auto;
+        border: 360px;
     }
 
     .info{
+        padding-top: 24px;
         justify-content: none;
         width: 100%;
     }
@@ -166,7 +170,7 @@
     }
 }
 
-@media (min-width: 500px) and (max-width: 800px){
+@media (min-width: 500px) and (max-width: 999px){
     .menu{
         width: 80%;
         flex-direction: row;
@@ -174,8 +178,11 @@
     }
 }
 
-@media (max-width: 300px){
+@media (min-width: 300px) and (max-width: 499px){
     .h1{
         font-size: 36px;
+    }
+    .navegation nav{
+        justify-content: end;
     }
 }
