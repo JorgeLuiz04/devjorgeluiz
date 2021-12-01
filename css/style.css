@@ -1,0 +1,386 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Proxima Nova";
+    background-image: url(/img/bg_bggenerator_com.png);
+    color: white;
+    width: 100%;
+}
+
+.h1{
+    font-size: 46px;
+}
+
+.h3{
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+
+.bt {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.st {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.flexd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topbar {
+    width: 100%;
+    height: 50px    ;
+    background-color: #231123;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+
+
+.logo p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.navegation {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.itens{
+    width: auto;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+
+.navegation nav ul li{
+    letter-spacing: 3px;
+    margin-right: 32px;
+}
+
+.navegation nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navegation nav .line2{
+    display: none;
+}
+
+.fbox{
+    display: flex;
+}
+
+.bars{
+    display: none;
+}
+
+.menu {
+    width: auto;
+    display: flex;
+}
+
+.menu li a {
+    cursor: pointer;
+}
+
+.bars{
+    cursor: pointer;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    width: 100%;
+}
+
+.page p {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    padding-top: 25px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.infoview {
+    width: 90%;
+    height: 70vh;
+}
+
+.info {
+    width: 50%;
+    height: 75%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text {
+    width: 60%;
+    padding: 45px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.line {
+    width: 1px;
+    height: 75%;
+    background-image: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.5), #fff, rgba(255, 255, 255, 0.5), transparent);}
+
+.view {
+    width: 50%;
+    height: 75%;
+    justify-content: center;
+}
+
+.view img {
+    width: 65%;
+    border-radius: 180px;
+}
+
+.sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobrepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.padding {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+.alig {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.proj_box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageproj {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 300px;
+    height: 380px;
+    background-color: #231123;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.b1 {
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.pdesc {
+    padding: 5%;
+    padding-top: 2px;
+    padding-bottom: 0;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.b2 {
+    margin-top: 3%;
+    width: 90%;
+    height: 65%;
+    background-color: rgb(60, 60, 214);
+    background: url("/img/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #52528C;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_c {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.box_c p {
+    font-size: 26px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+.c_forms {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, transparent, #52528C);
+}
+
+.cir0 {
+    width: 105px;
+    height: 105px;
+    background-color: transparent;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #231123 3px;
+}
+
+.cir {
+    width: 100px;
+    height: 100px;
+    background-color: #231123;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.line2 {
+    height: 1px;
+    width: 28%;
+    background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.5), #fff, rgba(255, 255, 255, 0.5), transparent);
+
+}
+
+.forms_b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+}
+
+.forms_c{
+    display: flex;
+    width: 80%;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    z-index: 5;
+    background-color: #211121;
+}
